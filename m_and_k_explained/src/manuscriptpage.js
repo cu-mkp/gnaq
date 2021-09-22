@@ -110,23 +110,23 @@ class ManuscriptPage extends Component {
             </Navbar>
         <div className="backgrounds">
            <div className="container">
-                <div className="circle" onClick={() => this.handleClick(0)} style={{float: "left", top: "80px", left: "23%"}}>
+                <div className="circle" onClick={() => this.handleClick(0)} style={{float: "left", top: "80px", left: "375px"}}>
                         <img src={IMG_URI_1} alt="book" style={mystyle1}/> 
                         <div className="centered">What is BnF Ms. Fr. 640?</div>
                 </div>
-                <div className="circle" onClick={() => this.handleClick(1)} style={{float: "left", top: "80px", left: "37%"}}>
+                <div className="circle" onClick={() => this.handleClick(1)} style={{float: "left", top: "80px", left: "525px"}}>
                     <img src={IMG_URI_1} alt="page" style={mystyle2}/> 
                     <div className="centered">What's inside the manuscript?</div>
                 </div>
-                <div className="circle" onClick={() => this.handleClick(0)} style={{top: "400px", left: "-30%"}}>
+                <div className="circle" onClick={() => this.handleClick(0)} style={{top: "400px", left: "-235px"}}>
                         <img src={IMG_URI_1} alt="book" style={mystyle1}/> 
                         <div className="centered">Circle 3</div>
                 </div>
-                <div className="circle" onClick={() => this.handleClick(0)} style={{float: "left", top: "200px", left: "39%"}}>
+                <div className="circle" onClick={() => this.handleClick(0)} style={{float: "left", top: "200px", left: "550px"}}>
                         <img src={IMG_URI_1} alt="book" style={mystyle1}/> 
                         <div className="centered">Circle 4</div>
                 </div>
-                <div className="circle" onClick={() => this.handleClick(0)} style={{float: "left", top: "200px", left: "52%"}}>
+                <div className="circle" onClick={() => this.handleClick(0)} style={{float: "left", top: "200px", left: "700px"}}>
                         <img src={IMG_URI_1} alt="book" style={mystyle1}/> 
                         <div className="centered">Circle 5</div>
                 </div>
